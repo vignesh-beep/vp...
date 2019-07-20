@@ -1,0 +1,2 @@
+stngs=input()
+print(stngs)
