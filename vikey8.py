@@ -1,0 +1,11 @@
+n13,n12=input().split()
+n13=int(n13)
+n12=int(n12)
+if(n13>n12):
+	diff=n12-n13
+else:
+	diff=n13-n12
+if(diff%2==0):
+	print('even')
+else:
+	print('odd')
